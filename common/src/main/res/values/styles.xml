@@ -1,0 +1,45 @@
+<resources>
+
+    <style name="Theme.private" parent="Theme.AppCompat">
+
+        <!-- 主色调 -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+
+        <!-- Genius包下面定义的Style -->
+        <item name="gTextViewStyle">@style/Genius.Widget.TextView</item>
+        <item name="gButtonStyle">@style/Genius.Widget.Button</item>
+        <item name="gFloatActionButtonStyle">@style/Genius.Widget.FloatActionButton</item>
+        <item name="gSeekBarStyle">@style/Genius.Widget.SeekBar</item>
+        <item name="gCheckBoxStyle">@style/Genius.Widget.CompoundButton.CheckBox</item>
+        <item name="gEditTextStyle">@style/Genius.Widget.EditText</item>
+        <item name="gLoadingStyle">@style/Genius.Widget.Loading</item>
+        <item name="gImageViewStyle">@style/Genius.Widget.ImageView</item>
+
+        <!--Background背景色-->
+        <item name="android:windowBackground">@color/windowsBackground</item>
+
+        <!--NoTitle无标题栏，无状态栏-->
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowNoTitle">true</item>
+
+        <!--ToolBar标题栏的高度-->
+        <item name="actionBarSize">@dimen/len_48</item>
+        <!-- Nav icon左上角的返回按钮的资源 -->
+        <item name="homeAsUpIndicator">@drawable/ic_back</item>
+
+        <!--ToolBar custom 初始化自己定义的三个值-->
+        <item name="toolbarTitleSize">@dimen/font_18</item>
+        <item name="toolbarTitleColor">@color/white_alpha_224</item>
+        <item name="toolbarMenuIconColor">@color/white_alpha_224</item>
+
+    </style>
+
+    <!-- 基础主题 -->
+    <style name="AppTheme.Base" parent="Theme.private" />
+
+
+</resources>

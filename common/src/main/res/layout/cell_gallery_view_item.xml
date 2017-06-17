@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bozaixing.italker.common.widgets.SquareLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="1dp"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/cell_gallery_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!--选中时候的遮罩背景-->
+    <View
+        android:id="@+id/cell_gallery_shade_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black_alpha_64"
+        android:visibility="gone"
+        tools:visibility="visible"/>
+
+    <!--选择框-->
+    <CheckBox
+        android:id="@+id/cell_gallery_selected_cb"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:button="@drawable/sel_cb_circle"
+        android:clickable="false"
+        android:drawablePadding="0dp"
+        android:enabled="false"
+        android:padding="0dp"
+        android:layout_gravity="end"
+        android:layout_margin="@dimen/len_2" />
+
+
+</com.bozaixing.italker.common.widgets.SquareLayout>
